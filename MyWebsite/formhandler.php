@@ -11,7 +11,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     echo "Last Name: " . $lastname . "<br>";
     echo "Favourite Pet: " . $favouritepet . "<br>";
 
-    header("Location: index.php");
+   header("Location: index.php");
 } else{
      header("Location:  index.php");
 }
